@@ -1,0 +1,93 @@
+@use '../vendor/bootstrap' as *;
+@use '../theme/app-theme'  as *; 
+
+._footer_section{
+    padding: 5rem 0;
+    margin-top: 10rem;
+    border-top:1px solid #e1e4e4;
+    
+    .container{
+
+        .footer--lft-row{
+
+            .logo--sr{
+                padding-bottom: 1.3rem;
+              
+                .display__{
+                    font-size: 1.8rem;
+                    font-weight: 510;
+                    font-family: 'Poppins', sans-serif;
+                }
+            }
+
+            p{
+                width: 70%;
+                span{
+                    font-size: 1rem!important;
+                    color: $gray-600;
+                }
+            }
+        }
+
+        .footer--lft-2row{
+            padding-top: 2rem;
+
+            p{
+                span{
+                    font-size: 1rem!important;
+                    color: $gray-600;
+                }
+            }
+            .social--list{
+                list-style: none;
+                display: flex;
+                align-items: center;
+
+                li{
+                    .social--wrapper{
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        margin-right: 0.5rem;
+                        background-color: #f2dfe5;
+                        text-align: center;
+                        padding:0.55rem 0 0.5rem 0;
+                        
+                        .social--icon{
+                            width: 25px;
+                            height: auto;
+                            fill: var(--primary-color);
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer--col-rg{
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+
+            ul{
+                list-style: none;
+                padding-left: 0;
+                margin: 0;
+
+                li{
+                    line-height: 2.5rem;
+
+                    h5{
+                        font-size: 1.2rem;
+                    }
+
+                    a{
+                        font-size: 1rem!important;
+                        color: $gray-600;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+}

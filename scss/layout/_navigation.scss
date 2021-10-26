@@ -1,0 +1,20 @@
+@use '../vendor/bootstrap' as *;
+@use '../theme/app-theme'  as *; 
+@use '../abstract/mixins' as *; 
+
+
+.menu--navbar{
+   @include gradientArt;
+    padding-top: 1.2rem;
+   
+    .navbar-nav{
+
+        .nav-link{
+            font-weight:450;
+            color: var(--navigation-text-color);
+            margin-right: 0.8em;
+            
+        }
+    }
+
+}

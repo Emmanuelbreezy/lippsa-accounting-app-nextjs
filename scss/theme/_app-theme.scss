@@ -1,0 +1,33 @@
+@use '../vendor/bootstrap' as *;
+
+
+
+
+:root{
+    --body-default: #f6f8f8;
+    --default-color: #fff;
+    --navigation-bg-color: $white;
+    --navigation-text-color:#222222;
+    --primary-color: #fc5a82;
+    --accent-color:#e761b2;
+    --secondary-color:#222222;
+    --text-color: rgb(255, 254, 254);
+
+    --primary-light-color: rgba(186, 85, 211, 0.25);
+    --section-sub-bg-color: #f5f5f5; //#E5E5E5;
+    --text-header-color: #0B132A;  
+    --footer-section-color:#F8F8F8;
+    --footer-copy-color: #afb5c0;
+    --shade-color: #ddd;
+    
+}
+
+body{
+    //background:linear-gradient(to right, rgba(#f2d3cb, 0.90), rgba(#f0f4f5,0.75));
+   background:var( --body-default);
+   overflow-x: hidden;
+   padding: 0;
+   margin: 0;
+
+}
+

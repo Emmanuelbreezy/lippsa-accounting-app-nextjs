@@ -1,0 +1,13 @@
+@use '../theme/app-theme'  as *; 
+
+
+
+@mixin gradient {
+    background:linear-gradient(to right, rgba(#f2d3cb, 0.90), rgba(#f0f4f5,0.75));
+
+}
+
+@mixin gradientArt {
+    background:linear-gradient(to right, rgba(#fce5df,0.90),rgba(#e761b2, 0.55) );
+                
+}

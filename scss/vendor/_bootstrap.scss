@@ -1,0 +1,16 @@
+
+$primary:     #fc5a82;
+$accents:      #0B132A;
+$secondary:     #222222;
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap"; 
+$input-focus-color: rgba($primary, 50%);
+$input-bg: $primary;
+$input-btn-focus-color: rgba($primary, $input-btn-focus-color-opacity);
+
+$input-focus-box-shadow: $primary;
+
+
+//IMPORT BOOSTRAP
+

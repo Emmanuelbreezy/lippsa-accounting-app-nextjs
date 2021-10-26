@@ -1,0 +1,34 @@
+@use '../../vendor/bootstrap' as *;
+@use '../../theme/app-theme'  as *;
+
+
+.auth--section{
+    padding-top: 1rem;
+    .container{
+        .row{
+            justify-content: center;
+            .col__{
+        
+               .card{
+                  @extend .shadow;
+                  padding:0 2rem;
+
+                  .card-body{
+
+                      form{
+                          padding: 1.5rem 0 2rem 0;
+
+                          button{
+                              padding:0.8rem;
+                              color: $white;
+                              background-color: var(--primary-color);
+                              font-weight: 510;
+                              font-size: 1.1rem;
+                          }
+                      }
+                  }
+               }
+            }
+        }
+    }
+}
